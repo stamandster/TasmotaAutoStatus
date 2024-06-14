@@ -32,7 +32,7 @@ Add the following line at the end of the file and save
 */1 * * * * root /usr/local/sbin/TasmotaAutoStatus.sh > /dev/null 2>&1
 ```
 
-Alternatively, you can run this script from any location manually (for instance your downloads folder) in the user context, just remember to edit the IP and Sleep timer
+Alternatively, you can run this script from any location manually (for instance your downloads folder) in the user context, just remember to edit the IP and Sleep timer via Nano or other text editor
 
 ```
 cd Downloads

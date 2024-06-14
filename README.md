@@ -31,3 +31,10 @@ Add the following line at the end of the file and save
 # monitor and start onewireMonitor is process is not running
 */1 * * * * root /usr/local/sbin/TasmotaAutoStatus.sh > /dev/null 2>&1
 ```
+
+Alternatively, you can run this script from any location manually (for instance your downloads folder) in the user context, just remember to edit the IP and Sleep timer
+
+```
+cd Downloads
+python TasmotaAutoStatus.py
+```

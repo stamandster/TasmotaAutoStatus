@@ -9,7 +9,6 @@ This script forces via an HTTP command the configured Tasmota device to send sen
 -     cd TasmotaAutoStatus
 -     cp TasmotaAutoStatus* /usr/local/sbin/
 -     chmod +x /usr/local/sbin/TasmotaAutoStatus*
-- Find out the folder / DS18B20 serial to monitor
 - Change the IP address queried in the script to your individual Tasmota IP, and set your query "sleep" rate (default is 1 second)
 -     nano /usr/local/sbin/TasmotaAutoStatus.py
 - Configure /etc/crontab and add the following line at the end of the file

@@ -20,7 +20,7 @@ Change the IP address queried in the script to your individual Tasmota IP, and s
 nano /usr/local/sbin/TasmotaAutoStatus.py
 ```
 
-Configure /etc/crontab and 
+Configure /etc/crontab
 ```
 nano /etc/crontab
 ```

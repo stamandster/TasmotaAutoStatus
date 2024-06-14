@@ -11,18 +11,18 @@ git clone https://github.com/stamandster/TasmotaAutoStatus
 Copy both TasmotaAutoStatus.sh and TasmotaAutoStatus.py to /usr/local/sbin and set permissions
 ```
 cd TasmotaAutoStatus
-cp TasmotaAutoStatus* /usr/local/sbin/
-chmod +x /usr/local/sbin/TasmotaAutoStatus*
+sudo cp TasmotaAutoStatus* /usr/local/sbin/
+sudo chmod +x /usr/local/sbin/TasmotaAutoStatus*
 ```
 
 Change the IP address queried in the script to your individual Tasmota IP, and set your query "sleep" rate (default is 1 second)
 ```
-nano /usr/local/sbin/TasmotaAutoStatus.py
+sudo nano /usr/local/sbin/TasmotaAutoStatus.py
 ```
 
-Configure /etc/crontab
+Configure Crontab
 ```
-nano /etc/crontab
+sudo crontab -e
 ```
 
 Add the following line at the end of the file and save
